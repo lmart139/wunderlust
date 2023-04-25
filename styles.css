@@ -49,6 +49,8 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Montserrat:wght@400;600&display=swap');
+
 :root {
    --yellow: #F6D64A;
    --teal: #55BCD5;
@@ -61,5 +63,206 @@ table {
 }
 
 #skip {
-  visibility: hidden;  
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden  
+}
+
+.sr-only {
+    visibility: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--black);
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400px;  
+}
+
+
+#menu-toggle {
+    display: block;
+    position: relative;
+  z-index: 1;  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+    user-select: none;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400px; 
+    background-color: var(--teal); 
+}
+
+#intro {
+display: block;
+margin: 0 auto;
+padding: 5px;
+}
+
+h1 {
+    font-family: molle;
+    font-size: 50px;
+    font-weight: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: molle;
+    font-size: 25px;
+    font-weight: 400px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: molle;
+    font-size: 25px;
+    font-weight: 400px; 
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: montserrat;
+    font-size: 35px;
+    font-weight: 800px; 
+    margin: 0 auto; 
+}
+
+header {
+    background-image: linear-gradient(180deg, var(--teal), var(--white));
+}
+
+header p {
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: 400px;  
+}
+
+#intro p {
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: 400px; 
+    margin: 0 auto;
+}  
+
+#plan {
+    background-color: var(--yellow);
+}
+
+#plan img {
+    background-color: var(--teal);
+    border-radius: 0.5rem;
+    border-color: var(--white);
+}
+
+#contact h3 {
+    display: inline-block;
+}
+#contact {
+    border-color: var(--purple);
+    display: block;
+	width: 800px;
+	padding: 1em;
+	margin: 0 auto;
+	font-size: 1.1em;
+}
+
+#names {
+
+}
+
+#nums {
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 400px;  
+}
+
+.required {
+color: var(--purple);
+}
+
+#testimonials p {
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400px;  
+}
+
+ q {
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400px; 
+}
+#about {
+    background-color: var(--blue);
+}
+
+#about  p {
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: 400px;  
+}
+
+#contact {
+    font-family: montserrat;
+    font-size: 15px;
+    font-weight: 700px;  
+    display: flex;
+}
+
+input {
+    border-color: var(--purple);
+}
+
+fieldset {
+    border: 2px solid var(--purple);  
+}
+
+    label {
+        font-family: montserrat;
+        font-size: 15px;
+        font-weight: 400px;  
+    }
+
+    .custom-select {
+        border-color: var(--purple); 
+        font-family: montserrat;
+        font-size: 15px;
+        font-weight: 400px;  
+    }
+
+    #destination {
+        border-color: var(--purple);
+    }
+
+    #travelTime {
+        border-color: var(--purple);
+    }
+
+    
+    #mySubmit {
+        background-color: var(--purple);
+        color: var(--white);
+        font-family: montserrat;
+        font-size: 15px;
+        font-weight: 500px; 
+    }
+
+    footer {
+        background-color: var(--light-gray);
+        font-family: montserrat;
+        font-size: 20px;
+        font-weight: 400px;  
+    }
+
+    footer a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+@media screen and (min-width: 320px){ 
+	
 }
