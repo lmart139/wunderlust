@@ -5,6 +5,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Montserrat:wght@400;600&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,8 +50,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Montserrat:wght@400;600&display=swap');
 
 :root {
    --yellow: #F6D64A;
@@ -279,7 +279,7 @@ visibility: hidden;
     #contact {
        border-color: var(--purple);
        display: block;
-       width: 800;
+       width: 800px;
        padding: 1em;
        margin: 0 auto;
        font-size: 1.1em;
